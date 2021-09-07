@@ -2,7 +2,7 @@
 @section('content')
     <h1 style="text-align:center;">Create Banner</h1>
     <div class="container">
-    <form action="{{url('banner.Save')}}" method='POST'style="margin-left:200px">
+    <form action="/Save" method='POST'style="margin-left:200px">
         @csrf
         <div class="mb-3">
             <label  class="form-label">Enter Banner Name</label>
